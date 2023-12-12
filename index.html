@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Student Registration</h1>
+    <h2>Personal details</h2>
+    <form>
+        <label>NAME: <span>*</span></label>
+        <input type="text" name="name" placeholder="ENTER THE NAME" required><br>
+        <label>FATHERS NAME: <span>*</span></label>
+        <input type="text" name="Fathers name" placeholder="ENTER THE NAME" required><br>
+        <label> MOTHERS NAME: <span>*</span></label>
+        <input type="text" name="Mothers name" placeholder="ENTER THE NAME" required><br>
+        <label>MOBILE NUMBER: <span>*</span> </label>
+        <input type="number" name="mobile" placeholder="ENTER MOBILE NUMBER" required ><br>
+        <label>ALTERNATE MOBILE NUMBER:</label> 
+        <input type="number" name="mobile2" placeholder="ENTER MOBILE NUMBER"><br>
+        <label>EMAIL ID:</label>
+        <input type="email" name="email" placeholder="ENTER YOUR EMAIL ID"><br>
+        <label>DATE OF BIRTH: <span>*</span> </label>
+        <input type="date" name="dob" required><br>
+        <label>ADHAR NUMBER:<span>*</span> </label>
+        <input type="number" name="adhar num" placeholder="ENTER YOUR ADHAR NUMBER" required><br>
+        <label>GENDER: <span>*</span> </label>
+        <input type="radio" name="gender" value="male">MALE
+        <input type="radio" name="gender" value="female">FEMALE
+        <input type="radio" name="gender" value="others">OTHERS <br>
+        <label>RELIGION <span>*</span> </label>
+        <select name="rel">
+            <option disabled selected value="">--SELECT YOUR RELEGION</option>
+            <option value="hindu">HINDU</option>
+            <option value="islam">ISLAM</option>
+            <option value="christian">CHRISTIAN</option>
+            <option value="others">OTHERS</option>
+        </select><br>
+        <label>CATEGORY<span>*</span> </label>
+        <select name="category">
+            <option disabled selected value="">--SELECT CATEGORY</option>
+            <option value="general">GENERAL</option>
+            <option value="sc">SC</option>
+            <option value="st">ST</option>
+            <option value="obc">OBC</option>
+            <option value="others">OTHERS</option>
+        </select><br>
+        <label>BLOOD GROUP:</label>
+        <input type="text" name="Blood group" placeholder="Eg-A,A+,B,B+,AB etc"><br>
+        <label>IMAGE <span>*</span> </label>
+        <input type="file"><br>
+        <h2>ADDRESS</h2>
+        <label>VILLAGE: <span>*</span> </label>
+        <input type="text" name="village" placeholder="ENTER YOUR VILLAGE" required ><br>
+        <label>POST OFFICE: <span>*</span> </label>
+        <input type="text" name="po" placeholder="ENTER POST OFFICE" required><br>
+        <label>POLICE STATION: <span>*</span> </label>
+        <input type="text" name="ps" placeholder="ENTER POLICE STATION" required><br>
+        <label>DISTRICT: <span>*</span> </label>
+        <input type="text" name="district" placeholder="ENTER DISTICT" required><br>
+        <label>STATE: <span>*</span> </label>
+        <select name="state">
+            <option disabled selected value="">--SELECT CATEGORY</option>
+            <option value="up">UP</option>
+            <option value="punjab">PUNJAB</option>
+            <option value="west bengal">WEST BENGAL</option>
+            <option value="maharastra">MAHARASTRA</option>
+            <option value="sikkim">SIKKIM</option>
+            <option value="Oddisha">ODDISHA</option>
+            <option value="bihar">BIHAR</option>
+            <option value="goa">GOA</option>
+            <option value="others">OTHERS</option>
+        </select><br>
+        <label>PINCODE <span>*</span> </label>
+        <input type="number" name="pincode" placeholder="ENTER PINCODE" required><br>
+        
+        <h2>EDUCATIONAL QUALIFICATION</h2>
+        <h3>HIGHER QUALIFICATION</h3>
+        <label>DEGREE/COURSE: <span>*</span> </label>
+        <input type="text" name="degre" placeholder="ENTER DEGREE" required><br>
+        <label>BOARD/UNIVERSITY: <span>*</span> </label>
+        <input type="text" name="university" placeholder="ENTER BOARD/UNIVERSITY" required><br>
+        <label>PASSING YEAR <span>*</span> </label>
+        <select name="passing year">
+            <option disabled selected value="">--SELECT PASSING YEAR</option>
+            <option value="2023">2023</option>
+            <option value="2022">2022</option>
+            <option value="2021">2021</option>
+            <option value="2020">2020</option>
+            <option value="2019">2019</option>
+            <option value="2018">2018</option>
+            <option value="2017">2017</option>
+        </select><br>
+        <label>PERCENTAGE/DIVISION: <span>*</span> </label>
+        <input type="text" name="percentage" placeholder="ENTER PERCENTAGE/DIVISION" required><br>
+        <label>OVERALL % IN THE QUALIFYING UG COURSE <span>*</span> </label>
+        <input type="number" name="percent" placeholder="ENTER PERCENTAGE" required><br>
+        <label>MATHEMATICS SCORE IN UG LEVEL <span>*</span> </label>
+        <input type="number" name="marks in ug" placeholder="ENTER THE SCORE" required><br>
+        <label>AGGREGATE IN CLASS 12: <span>*</span> </label>
+        <input type="text" name="aggregate in 12" placeholder="AGGREGATE IN CLASS 12" required><br>
+        <label>MATHEMATICS SCORE IN CLASS 12 <span>*</span> </label>
+        <input type="number" name="marks in 12" placeholder="ENTER THE SCORE" required><br>
+        <label>AGGREGATE IN CLASS 10 <span>*</span> </label>
+        <input type="text" name="aggregate" placeholder="AGGREGATE IN CLASS 10" required><br>
+        <label>MATHEMATICS SCORE IN CLASS 10 <span>*</span></label>
+        <input type="number" name="score in class 10" placeholder="MATHEMATICS SCORE IN CLASS 10" required><br>
+        <input type="submit" name="ok" value="submit">
+        <input type="reset" value="reset">
+
+
+
+
+
+
+
+
+    </form>
+</body>
+</html>
