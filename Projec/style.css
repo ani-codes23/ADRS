@@ -1,0 +1,98 @@
+body{
+    margin: 20;
+    padding: 0;
+}
+.container{
+    margin-top: 10px;
+}
+.container h6,h2{
+    text-align: center;
+    font-weight: bold;
+}
+.container p{
+    text-align: center;
+    color: gray;
+    font-weight: lighter;
+}
+.subscribe {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 10vh; /* Set height to the viewport height for vertical centering */
+  }
+.subscribe input{
+    padding: 10px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px; 
+}
+.subscribe button{
+    background-color:#0dbe4b;
+    padding: 10px;
+    color: #eee;
+    border: none;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center; 
+    align-items: center; 
+    height: 10vh; 
+  }
+  .icons svg{
+    border-radius:8px ;
+  }
+  
+  .container1{
+    color: white;
+    height: 450px;
+    background-image: url("https://images.pexels.com/photos/1595385/pexels-photo-1595385.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    opacity: 0.9;
+    
+}
+.texts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 140px;
+    padding-bottom: 24px;
+    background-color: rgb(0, 194, 113);
+    opacity: 0.9;
+    /* position: absolute; */
+}
+.texts button{
+  font-weight: bold;
+}
+  .texts h5,h2,p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+  }
+  .container-fluid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(6, 211, 125) ;
+  }
+  .container-fluid p{
+    padding-top: 10px;
+  }
+  .container2{
+      margin-top: 20px;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+
+  
+  
+  
+  
